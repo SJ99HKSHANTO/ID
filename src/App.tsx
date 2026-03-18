@@ -71,6 +71,47 @@ export default function App() {
         <aside className="md:col-span-1 space-y-6">
           <Section title="ভিডিও প্ল্যাটফর্ম">
             <div className="space-y-3">
+import React, { useState } from 'react';
+import { Youtube, Facebook, Instagram, Link as LinkIcon } from 'lucide-react';
+import { motion } from 'framer-motion';
+
+export default function App() {
+  return (
+    <div className="container">
+      <h1>আমার পার্সোনাল ওয়েবসাইট</h1>
+      
+      <div className="links-section">
+        {/* ইউটিউব লিঙ্ক */}
+        <a href="https://youtube.com" target="_blank" rel="noreferrer">
+          <button className="social-button">
+            <Youtube size={20} /> ইউটিউব সাবস্ক্রাইব করুন
+          </button>
+        </a>
+
+        {/* ফেসবুক লিঙ্ক */}
+        <a href="https://facebook.com" target="_blank" rel="noreferrer">
+          <button className="social-button">
+            <Facebook size={20} /> ফেসবুকে যুক্ত হোন
+          </button>
+        </a>
+      </div>
+    </div>
+  );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+              
               <PlatformCard icon={<Youtube className="text-red-600" />} text="ইউটিউব ভিডিও" />
               <PlatformCard icon={<Facebook className="text-blue-600" />} text="ফেসবুক ভিডিও" />
               <PlatformCard icon={<Video className="text-pink-600" />} text="টিকটক আপডেট" />
