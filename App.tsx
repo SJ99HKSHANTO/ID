@@ -72,6 +72,12 @@ export default function App() {
           <Section title="ভিডিও প্ল্যাটফর্ম">
             <div className="space-y-3">
               <PlatformCard icon={<Youtube className="text-red-600" />} text="ইউটিউব ভিডিও" />
+<button class="menu-button">
+  <span>Home</span>
+  <span>about</span>
+  <span>cont.</span>
+</button>
+              
               <PlatformCard icon={<Facebook className="text-blue-600" />} text="ফেসবুক ভিডিও" />
               <PlatformCard icon={<Video className="text-pink-600" />} text="টিকটক আপডেট" />
               <PlatformCard icon={<Instagram className="text-purple-600" />} text="ইনস্টাগ্রাম রিলস" />
@@ -158,7 +164,7 @@ export default function App() {
       {/* Footer */}
       <footer className="bg-slate-900 text-white py-10 mt-12 text-center">
         <div className="max-w-7xl mx-auto px-4">
-          <p className="text-slate-400">&copy; ২০২৪ শান্ত। সর্বস্বত্ব সংরক্ষিত।</p>
+          <p className="text-slate-400">&copy; ২০২৬ shanto । সংরক্ষিত ।</p>
           <div className="flex justify-center gap-6 mt-4">
             <a href="#" className="text-slate-400 hover:text-white transition-colors"><Facebook size={20} /></a>
             <a href="#" className="text-slate-400 hover:text-white transition-colors"><Youtube size={20} /></a>
