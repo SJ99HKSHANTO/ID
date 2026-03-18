@@ -1,2 +1,21 @@
 @import "tailwindcss";
 coler=5677
+
+.container {
+  text-align: center;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.social-button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  margin: 10px auto;
+  cursor: pointer;
+  background-color: #ff0000; /* ইউটিউব লাল রঙ */
+  color: white;
+  border: none;
+  border-radius: 8px;
+}
