@@ -158,7 +158,7 @@ export default function App() {
       {/* Footer */}
       <footer className="bg-slate-900 text-white py-10 mt-12 text-center">
         <div className="max-w-7xl mx-auto px-4">
-          <p className="text-slate-400">&copy; ২০২৪ শান্ত। সর্বস্বত্ব সংরক্ষিত।</p>
+          <p className="text-slate-400">&copy; 2026 shanto।  সংরক্ষিত।</p>
           <div className="flex justify-center gap-6 mt-4">
             <a href="#" className="text-slate-400 hover:text-white transition-colors"><Facebook size={20} /></a>
             <a href="#" className="text-slate-400 hover:text-white transition-colors"><Youtube size={20} /></a>
